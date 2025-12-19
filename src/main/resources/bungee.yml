@@ -1,0 +1,5 @@
+name: NeoServerCommand
+version: '1.0'
+main: com.koirdsuzu.neoservercommand.NeoServerPlugin
+author: koirdsuzu
+description: BungeeCordの/serverの置き換え

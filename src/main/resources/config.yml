@@ -1,0 +1,35 @@
+messages:
+  # サーバー一覧表示メッセージ
+  available-servers: "&6&l=== &b&l利用可能なサーバー &6&l==="
+  server-list-item: " &8▸ &a%server%"
+  server-hover: "&e%server%\n&7%players% プレイヤーが接続中\n&aクリックでサーバーに移動"
+  
+  # エラーメッセージ
+  invalid-server: "&c&l✗ &cサーバー &e%server% &cは存在しません。"
+  no-permission: "&c&l✗ &cサーバー &e%server% &cに接続する権限がありません。"
+  
+  # 接続メッセージ
+  connecting: "&a&l✓ &aサーバー &e%server% &aに接続中..."
+  connected: "&a&l✓ &aサーバー &e%server% &aに接続しました！"
+  
+  # ヘルプメッセージ
+  help-header: "&6&l=== &b&lNeoServerCommand &6&l==="
+  help-usage: "&7使用方法: &e/server [サーバー名]"
+  help-example: "&7例: &e/server server01"
+  
+  # 権限関連メッセージ
+  permission-info: "&7必要な権限: &ebungeecord.command.neoserver.* &7または &ebungeecord.command.neoserver.[サーバー名]"
+  
+  # Sendコマンド関連メッセージ
+  send-available-servers: "&6&l=== &b&l送信可能なサーバー &6&l==="
+  send-server-list-item: " &8▸ &a%server%"
+  send-server-hover: "&e%server%\n&7%players% プレイヤーが接続中\n&aクリックでサーバーに送信"
+  send-usage: "&e使用方法: /send <player|all|current> <サーバー名>\n&7例: /send all server01\n&7例: /send current server02\n&7例: /send PlayerName server03"
+  send-permission-info: "&7必要な権限: &ebungeecord.command.neosend.* &7または &ebungeecord.command.neosend.[サーバー名]"
+  send-no-permission: "&c&l✗ &cサーバー &e%server% &cに送信する権限がありません。"
+  send-success: "&a&l✓ &aプレイヤー &e%player% &aをサーバー &e%server% &aに送信しました。"
+  send-all-success: "&a&l✓ &a%count%人のプレイヤーをサーバー &e%server% &aに送信しました。"
+  send-current-success: "&a&l✓ &a現在のサーバーの%count%人のプレイヤーをサーバー &e%server% &aに送信しました。"
+  send-received: "&a&l✓ &aサーバー &e%server% &aに移動しました。"
+  send-failed: "&c&l✗ &cプレイヤーの送信に失敗しました。"
+  player-not-found: "&c&l✗ &cプレイヤー &e%player% &cが見つかりません。"
